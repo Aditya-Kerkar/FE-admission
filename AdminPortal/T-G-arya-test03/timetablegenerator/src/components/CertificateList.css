@@ -1,0 +1,26 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+  
+  .certificate-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .certificate-list li {
+    margin-bottom: 10px;
+  }
+  
+  .certificate-list label {
+    display: block;
+    cursor: pointer;
+  }
+  

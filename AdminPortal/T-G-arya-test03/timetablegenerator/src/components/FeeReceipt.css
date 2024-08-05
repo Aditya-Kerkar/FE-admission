@@ -1,0 +1,125 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.body {
+  margin: 20px 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0px;
+}
+
+.form-container {
+  margin: 20px 0;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+.label {
+  font-weight: bold;
+  flex: 1;
+  margin-right: 10px; /* Reduced margin-right */
+}
+
+.value {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px; /* Reduced margin-left */
+}
+
+.fee-details {
+  border: 2px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.fee-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+.fee-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+.fee-sno, .fee-particulars, .fee-amount {
+  flex: 1;
+}
+
+.signature {
+  margin-top: 40px;
+}
+
+.row-send {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.col-send {
+  text-align: center;
+}
+
+.btn-send {
+  background: #E28C41;
+  border: 1px solid #E28C41;
+  color: white;
+}
+
+.rowpay{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.colpay{
+  margin-left: 10%;
+  
+
+}
+.colpay2{
+  margin-left: 10%;
+  margin-bottom: 1%;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  
+}
+
+
+.rowpay2{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 30%;
+  font-size: 10px;
+}
+
+.backbtn{
+  background-color: #002566;
+  color: azure;
+  margin-top: 1%;
+  margin-left: 2%;
+}

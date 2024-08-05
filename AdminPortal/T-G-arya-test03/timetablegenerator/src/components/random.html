@@ -1,0 +1,30 @@
+<div className="doc-container">
+    {data.map((row) => (
+      <div className="doc-row" key={row.id}>
+        <div className="col-3 doc-col">
+            {row.name}  
+        </div>
+        <div className="col-3 doc-col">
+            <DocumentViewerComponent/>  
+        </div>
+        <div className="col-3 doc-col">
+            <button
+                type="button"
+                className="btn btn-success approve"
+                onClick={() => handleApprove(row.id)}
+              >
+                Approve
+              </button>
+              <button
+                type="button"
+                className="btn btn-danger reject"
+                onClick={() => handleReject(row.id)}
+              >
+                Reject
+              </button> 
+        </div>
+       
+      </div>
+    ))}
+  
+</div>

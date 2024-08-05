@@ -1,0 +1,60 @@
+.green-tick-btn {
+    background-color: rgb(10, 211, 44);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .red-cross-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .green-tick-btn:hover {
+    background-color: rgb(7, 165, 33);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .red-cross-btn:hover {
+    background-color: rgb(159, 17, 17);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  
+
+  .verify-col{
+    width: max-content;
+    text-align: center;
+    background-color: rgb(251, 251, 251);
+}
+  
+
+.centered-checkbox {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .form-check {
+    display: inline-block;
+  }
+
+
+.reupload-btn{
+    background-color: #002566;
+    color: azure;
+}

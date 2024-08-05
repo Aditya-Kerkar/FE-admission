@@ -1,0 +1,116 @@
+body {
+    font-family:"Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  .page-heading{
+    margin-bottom: 50px;
+    color: #192042;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  
+ .buttons button:hover, button:hover{
+    background-color: #F9F9F9;
+    color: #E28C41;
+    border: 1px solid #E28C41;
+  }
+
+  .buttons button , .add-course{
+    font-family: inherit;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #E28C41;
+    border: 1px solid #E28C41;
+    color: #F9F9F9;
+    cursor: pointer;
+  }
+  
+  .buttons .import{
+    padding: 10px 50px;
+  }
+  
+  .inputs {
+    margin-bottom: 40px;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-field label , #course-details{
+    font-weight: 600;
+    color: #000000;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #F7FAFF;
+  }
+  
+  .add-course {
+    padding: 10px 20px;
+    border: 1px solid #C8CBD7;
+  }
+
+  /* existing styles remain the same */
+
+input[type="text"], #selectInpt {
+  width: 100%; /* Adjusted width to accommodate padding and borders */
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px; /* Reset cell padding */
+  text-align: center;
+  border-radius: 12px;
+}
+
+th input, td input {
+  width: 100%; /* Make sure input fields take the full width of their containers */
+  padding: 8px; /* Add padding back to input fields */
+  box-sizing: border-box; /* Include padding and border in the input's total width and height */
+  border-radius: 12px;
+  border-style: none;
+  border: 1px solid #C4C4C4;
+}
+
+/* existing styles remain the same */
+
+#department-name, #semester, #selectInpt{
+  height: 50px;
+  background-color: #F7FAFF;
+  border: 1px solid #C8CBD7;
+  border-radius: 12px;
+}
+
+th{
+  font-weight: 400;
+}
+
+#import-cont{
+  display: none;
+}

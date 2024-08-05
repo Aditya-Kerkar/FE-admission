@@ -1,0 +1,90 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+} 
+
+.container-doc {
+    
+    width: 800px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 500px;
+}
+
+/* Page Heading */
+.page-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Centering Elements */
+.center {
+    text-align: center;
+}
+
+/* Table Styles */
+.doc-req {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.doc-req th,
+.doc-req td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.doc-req th {
+    background-color: #E28C41;
+    border:1px solid #E28C41 ;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.doc-req tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* List Styles within Table */
+.doc-req ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.doc-req ul li {
+    margin-bottom: 5px;
+}
+
+/* Mandatory Text Styles */
+.doc-req td:last-child {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .page-heading {
+        font-size: 1.5em;
+    }
+
+    .doc-req th, .doc-req td {
+        padding: 8px;
+    }
+}

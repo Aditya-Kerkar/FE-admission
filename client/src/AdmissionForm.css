@@ -1,0 +1,244 @@
+body {
+  font-family:"Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* width: 75%; */
+  background-color: #F7FAFF;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.spacer {
+  height: 70px; /* Adjust the height as needed */
+}
+
+
+
+
+.spacer2 {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.center {
+  text-align: center;
+}
+.page-heading{
+  margin-bottom: 50px;
+  color: #192042;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.buttons button:hover, button:hover{
+  background-color: #F9F9F9;
+  color: #E28C41;
+  border: 1px solid #E28C41;
+}
+
+.buttons button , .add-course{
+  font-family: inherit;
+  padding: 10px 20px;
+  border-style: none;
+  /* border-radius: 20px; */
+  background-color: #E28C41;
+  border: 1px solid #E28C41;
+  color: #F9F9F9;
+  cursor: pointer;
+}
+
+.buttons .import{
+  padding: 10px 50px;
+}
+
+.inputs {
+  margin-bottom: 40px;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label , #course-details{
+  font-weight: 600;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+  /* border-radius: 20px; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #F7FAFF;
+}
+
+.add-course {
+  padding: 10px 20px;
+  border: 1px solid #C8CBD7;
+}
+
+.side-by-side {
+  display: flex;
+  gap: 50px; /* Adjust the gap as needed */
+}
+
+/* Make sure the input fields take equal space */
+.side-by-side .input-field {
+  flex: 1;
+}
+.input-fields.side-by-side .input-field {
+  flex: 1;
+}
+
+#pdf-content{
+
+width: 100%;
+
+}
+
+tr{
+
+padding: 3px;
+}
+
+.dropdown-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  height: 50px;
+  background-color: #F7FAFF;
+  border: 1px solid #C8CBD7;
+  border-radius: 12px;
+}
+/* existing styles remain the same */
+
+input[type="text"], #selectInpt, .datepicker-input {
+width: 100%; /* Adjusted width to accommodate padding and borders */
+padding: 8px;
+font-size: 16px;
+box-sizing: border-box;
+height: 50px;
+background-color: #F7FAFF;
+border: 1px solid #C8CBD7;
+border-radius: 12px; /* Includes padding and border in the element's total width and height */
+}
+
+.input-fields.side-by-side {
+display: flex;
+gap: 20px; /* Adjust the gap as needed */
+}
+
+.side-by-side .input-field {
+flex: 1; /* Ensure input fields take equal space */
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px; /* Reset cell padding */
+text-align: center;
+/* border-radius: 12px; */
+/* width: 100%; */
+}
+
+th input, td input {
+width: 100%; /* Make sure input fields take the full width of their containers */
+padding: 8px; /* Add padding back to input fields */
+box-sizing: border-box; /* Include padding and border in the input's total width and height */
+/* border-radius: 12px; */
+border-style: none;
+border: 1px solid #C4C4C4;
+}
+
+/* existing styles remain the same */
+
+#department-name, #semester, #selectInpt{
+height: 50px;
+background-color: #F7FAFF;
+border: 1px solid #C8CBD7;
+border-radius: 12px;
+}
+
+th{
+font-weight: 400;
+}
+
+#import-cont{
+display: none;
+}
+.header {
+
+/* background-color: #E28C41; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  margin-left: 20px;
+  font-size: 9px;
+}
+
+.header-right {
+  margin-right: -250px;
+
+}
+
+.logo {
+  width: 300px;
+  margin-right: 0px;
+}
+
+.school-info {
+  text-align: left;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 160px;
+  border-radius: 20%;
+}
+
+
+.logo {
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 175px;
+}
+
+.signature-img {
+  width: 125px;
+  height: 80px;
+}
+
+.table3{
+padding-top: 2%;
+}
+
+
+  @media print {
+    body{
+      padding: 3%;
+    }
+    .form-table ,.inner-table{
+      page-break-inside: avoid; 
+      background-color: white;/* Avoid splitting tables across pages */
+    }
+    tbody th td tr{
+      background-color: white;
+    }
+    button{
+      visibility: hidden;
+    }
+  }
+  

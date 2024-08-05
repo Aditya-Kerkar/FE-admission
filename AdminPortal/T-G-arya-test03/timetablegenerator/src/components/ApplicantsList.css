@@ -1,0 +1,116 @@
+.title{
+  text-align: center;
+  margin: 10px;
+}
+
+.table-container{
+  text-align: left;
+  padding : 20px 10px;
+  /* border-style: solid;
+  border-color: black;
+  border-width: 2px; */
+  margin: 15px 20px;
+  
+}
+
+.table {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
+height: 100%;
+}
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  height: 12px;
+}
+
+tr{
+height: 12px;
+}
+.table-content-row{
+height: 12px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.verify-btn{
+color: #F9F9F9;
+background-color: #E28C41;
+border: 1px solid #E28C41;
+}
+
+td {
+border: 1px solid #ddd;
+padding: 35px 12px;
+}
+.typeSelect{
+display: inline-block;
+background-color:  #002566;
+border-color:  #002566;
+color:#F9F9F9 ;
+width:250px;
+border-radius: 15px;
+}
+
+.typeSelect:hover{
+background-color:  #0c46aa;
+border-color:  #0c46aa;
+color:#F9F9F9 ;
+}
+
+
+.admissionSelectButton{
+padding: 0.7% 1%;
+
+} 
+
+.dropdown{
+background-color: #f2f2f2;
+}
+
+.search-bar-1,.search-bar-2{
+background-color: #E28C41;
+height: 55px;
+width: 100%;
+margin-left: 3%;
+margin-right: 3%;
+padding-top: 0.5em;
+margin: auto;
+border-radius: 20px;
+border-color: #E28C41;
+
+
+
+}
+
+.search-bar-icon{
+margin-left: 3%;
+}
+
+.search-container{
+background-color: #E28C41;
+width: 100%;
+border-radius: 20px;
+margin : auto auto;
+}
+
+.search-bar-row{
+background-color: #E28C41;
+
+padding: auto 25px;
+}
+
+.SelectButton{
+background-color: #E28C41;
+}
+
+.search-bar-icon{
+font-size: medium;
+text-align: center;
+margin: 20% 27%;
+
+}

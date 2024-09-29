@@ -1,0 +1,67 @@
+@media print {
+  .print-button-container {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  @page {
+    margin: 20mm;
+  }
+}
+
+.verify-btn{
+  color: #F9F9F9;
+  background-color: #E28C41;
+  border: 1px solid #E28C41;
+}
+
+.col-pdf{
+  margin: auto;
+  padding-left: 45%;
+  padding-top: 0.3%;
+  padding-bottom: 5%;
+}
+
+.branch-btn{
+  background-color: #E28C41;
+  color: #F9F9F9;
+  width: 90px;
+}
+
+.branch-btn:hover{
+  background-color: #8d501b;
+  color: #F9F9F9;
+}
+
+.assignbtn{
+  background-color:  #002566;
+  border-color:  #002566;
+  color:#F9F9F9 ;
+}
+
+.assignbtn:hover{
+  background-color:  #1762e3;
+  border-color:  #1762e3;
+  color:#F9F9F9 ;
+}
+
+.assigntd{
+  width: 15%;
+}
+
+  .search-container-merit{
+    width: 1000px;
+    margin-left: 17%;
+    margin-top: 2%;
+    
+  }
+
+.row-title-merit{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-weight: 30px;
+
+}

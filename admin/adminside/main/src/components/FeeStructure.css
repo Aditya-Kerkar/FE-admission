@@ -1,0 +1,49 @@
+.fee-input{
+  display: block;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 2%;
+  margin-left : 1%;
+}
+
+.ad-set1{
+  margin-left: 25%;
+}
+
+.selectAdyear-btn{
+  background-color: #E28C41;
+  color: #F9F9F9;
+  width:150px;
+  text-align: center;
+}
+
+.selectAdyear-btn:hover{
+  background-color: #c8742a;
+  color: #F9F9F9;
+  width:150px;
+  text-align: center;
+}
+
+.selectAdyear-btn{
+  background-color: #E28C41;
+  color: #F9F9F9;
+  width:150px;
+  text-align: center;
+}
+
+.inputfee-width{
+  width: 25%;
+}
+.upload-btn{
+  width: 25%;
+  margin-left: 40%;
+  background-color:#E28C41;
+  color: #F9F9F9;
+}
+
+.upload-btn:hover{
+  width: 25%;
+  margin-left: 40%;
+  background-color:#c8742a;
+  color: #F9F9F9;
+}

@@ -1,0 +1,79 @@
+/* modal.css */
+.otp-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 40px;
+    width: 400px; /* Make the modal larger */
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .otp-modal h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .otp-modal input {
+    margin-bottom: 20px; /* Increase gap between input and button */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center align buttons horizontally */
+  }
+  
+  .button-container button {
+    margin: 0 10px; /* Add spacing between buttons */
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #f9f9f9;
+    color: #e28c41;
+  }
+  
+
+  
+  /* Blur the background */
+  .otp-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+  }
+  
+
+
+
+  .button-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap between button and status as needed */
+    margin-top: 20px; /* Add space between input field and button container */
+  }
+  
+  .button-container1 button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .verification-status {
+    margin-left: 20px; /* Additional margin if needed */
+  }

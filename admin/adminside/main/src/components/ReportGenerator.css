@@ -1,0 +1,72 @@
+/* General Container Styles */
+.Container {
+  padding: 24px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Text Styles */
+.HeaderText {
+  margin-bottom: 24px;
+  text-align: center;
+  color: black; /* Primary color */
+}
+
+/* Form Group Styles */
+.FormGroupStyled {
+  margin-bottom: 24px;
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+/* Grid and Checkbox Styles */
+.TableCheckboxGrid {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure checkboxes stay in one line */
+  gap: 16px;
+  padding: 8px 0; /* Added padding for better spacing */
+}
+
+.CheckboxLabel {
+  text-transform: capitalize;
+  flex: 0 0 auto; /* Ensure checkboxes don't grow */
+}
+
+/* Table Styles */
+.TableContainerStyled {
+  margin-top: 24px;
+  width: 100%;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box-shadow */
+  border: 1px solid #ccc; /* Adding border for clarity */
+  border-radius: 4px; /* Rounded corners for aesthetics */
+}
+
+.TableHeader {
+  background-color: #E28C41; /* Primary color */
+}
+
+.TableHeaderCell {
+  color: #fff; /* Text color for table header */
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+}
+
+.TableCellStyled {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .TableHeaderCell,
+  .TableCellStyled {
+    padding: 8px; /* Adjust padding for smaller screens */
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+}
